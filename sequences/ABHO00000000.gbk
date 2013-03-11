@@ -1,0 +1,40 @@
+LOCUS       ABHO01000000             186 rc    DNA     linear   BCT 08-MAY-2008
+DEFINITION  Escherichia coli O157:H7 str. EC4196, whole genome shotgun
+            sequencing project.
+ACCESSION   ABHO00000000
+VERSION     ABHO00000000.1  GI:159530375
+DBLINK      BioProject: PRJNA27741
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. EC4196
+  ORGANISM  Escherichia coli O157:H7 str. EC4196
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 186)
+  AUTHORS   Eppinger,M., Ravel,J., Mammel,M.K., LeClerc,J.E., Cebula,T.A. and
+            Sebastian,Y.
+  TITLE     Annotation of Escherichia coli O157:H7 str. EC4196
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 186)
+  AUTHORS   Rosovitz,M.J. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The Escherichia coli O157:H7 str. EC4196 whole genome shotgun (WGS)
+            project has the project accession ABHO00000000.  This version of
+            the project (01) has the accession number ABHO01000000, and
+            consists of sequences ABHO01000001-ABHO01000186.
+            PLEASE NOTE THIS IS A WHOLE GENOME SHOTGUN SEQUENCING PROJECT
+            PERFORMED AT JCVI, AND USE OF THE SEQUENCE SHOULD BE WITH THE
+            UNDERSTANDING THAT THE SEQUENCE IS NOT COMPLETE AND MAY CONTAIN
+            ERRORS.
+            Annotation was added to the contigs in May 2008.
+FEATURES             Location/Qualifiers
+     source          1..186
+                     /organism="Escherichia coli O157:H7 str. EC4196"
+                     /mol_type="genomic DNA"
+                     /strain="EC4196"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:444451"
+WGS         ABHO01000001-ABHO01000186
+//
+

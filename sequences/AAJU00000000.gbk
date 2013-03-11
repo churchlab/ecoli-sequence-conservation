@@ -1,0 +1,53 @@
+LOCUS       AAJU02000000             119 rc    DNA     linear   BCT 20-JUN-2008
+DEFINITION  Escherichia coli F11, whole genome shotgun sequencing project.
+ACCESSION   AAJU00000000
+VERSION     AAJU00000000.2  GI:190909812
+DBLINK      BioProject: PRJNA15576
+KEYWORDS    WGS.
+SOURCE      Escherichia coli F11
+  ORGANISM  Escherichia coli F11
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 119)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Mobley,H.L.T., Myers,G.S.A.,
+            Seshadri,R., Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockvillw, MD 20850, USA
+REFERENCE   2  (bases 1 to 119)
+  AUTHORS   Rasko,D., Rosovitz,M., Myers,G., Seshadri,R., Cer,R., Jiang,L.,
+            Ravel,J., Fricke,W.F. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Jun 20, 2008 this sequence version replaced gi:74230144.
+            The Escherichia coli F11 whole genome shotgun (WGS) project has the
+            project accession AAJU00000000.  This version of the project (02)
+            has the accession number AAJU02000000, and consists of sequences
+            AAJU02000001-AAJU02000119.
+            Escherichia coli F11 was originally isolated from a 20 year old
+            woman presenting her first case of cystitis with bacteruria (10e5
+            fcu/ml) (Stapleton AE et al, J, Infect. Dis. (1991),163:773-779).
+            Cystitis is the infection of the bladder with no involvement of the
+            kidneys or other internal organs. Common causes of cystitis include
+            E. coli and Proteus mirabilis. The E. coli F11 strain was provided
+            for sequencing by Dr. H.L.T. Mobley (University of Michigan,
+            Department of Microbiology). E. coli F11 is a member of the
+            extra-intestinal pathogenic E. coli (ExPEC), which include E. coli
+            infections in the kidneys and cerebral spinal fluid. Known
+            virulence factors include: serotype O6:H31, mannose-resistant
+            hemagglutinins (MRHA/S, MRHA/H), hemolysin (phenotype and colony
+            blot positive), production of aerobactin, pap-pili, and a papG III
+            allele. E. coli F11 has been shown to colonize the urinary tracts
+            of a number of mouse models (Johnson D et al, Infection and
+            Immunity (1998), 66: 3059).
+FEATURES             Location/Qualifiers
+     source          1..119
+                     /organism="Escherichia coli F11"
+                     /mol_type="genomic DNA"
+                     /strain="F11"
+                     /serovar="O6:H31"
+                     /db_xref="taxon:340197"
+WGS         AAJU02000001-AAJU02000119
+//
+

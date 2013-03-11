@@ -1,0 +1,42 @@
+LOCUS       ABKY02000000              10 rc    DNA     linear   BCT 19-FEB-2009
+DEFINITION  Escherichia coli O157:H7 str. TW14588, whole genome shotgun
+            sequencing project.
+ACCESSION   ABKY00000000
+VERSION     ABKY00000000.2  GI:217322862
+DBLINK      BioProject: PRJNA28847
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. TW14588
+  ORGANISM  Escherichia coli O157:H7 str. TW14588
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 10)
+  AUTHORS   Sutton,G. and Whittam,T.S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-FEB-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 10)
+  AUTHORS   Sebastian,Y., Whittam,T.S., Manning,S.D. and Sutton,G.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (21-NOV-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Dec 11, 2008 this sequence version replaced gi:169252734.
+            The Escherichia coli O157:H7 str. TW14588 whole genome shotgun
+            (WGS) project has the project accession ABKY00000000.  This version
+            of the project (02) has the accession number ABKY02000000, and
+            consists of sequences ABKY02000001-ABKY02000010.
+            DNA Source: STEC Center
+            National Food Safety and Toxicology Center (NFSTC)
+            Michigan State University (MSU)
+            http://foodsafe.msu.edu/
+FEATURES             Location/Qualifiers
+     source          1..10
+                     /organism="Escherichia coli O157:H7 str. TW14588"
+                     /mol_type="genomic DNA"
+                     /strain="TW14588"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:502346"
+WGS         ABKY02000001-ABKY02000010
+WGS_SCAFLD  CM000662
+WGS_SCAFLD  DS999999
+//
+

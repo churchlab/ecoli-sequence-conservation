@@ -1,0 +1,40 @@
+LOCUS       ABHP01000000             231 rc    DNA     linear   BCT 13-MAY-2008
+DEFINITION  Escherichia coli O157:H7 str. EC4113, whole genome shotgun
+            sequencing project.
+ACCESSION   ABHP00000000
+VERSION     ABHP00000000.1  GI:159530691
+DBLINK      BioProject: PRJNA27743
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. EC4113
+  ORGANISM  Escherichia coli O157:H7 str. EC4113
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 231)
+  AUTHORS   Eppinger,M., Ravel,J., Mammel,M.K., LeClerc,J.E., Cebula,T.A. and
+            Sebastian,Y.
+  TITLE     Annotation of Escherichia coli O157:H7 str. EC4113
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 231)
+  AUTHORS   Rosovitz,M.J. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The Escherichia coli O157:H7 str. EC4113 whole genome shotgun (WGS)
+            project has the project accession ABHP00000000.  This version of
+            the project (01) has the accession number ABHP01000000, and
+            consists of sequences ABHP01000001-ABHP01000231.
+            PLEASE NOTE THIS IS A WHOLE GENOME SHOTGUN SEQUENCING PROJECT
+            PERFORMED AT JCVI, AND USE OF THE SEQUENCE SHOULD BE WITH THE
+            UNDERSTANDING THAT THE SEQUENCE IS NOT COMPLETE AND MAY CONTAIN
+            ERRORS.
+            Annotation was added to the contigs in May 2008.
+FEATURES             Location/Qualifiers
+     source          1..231
+                     /organism="Escherichia coli O157:H7 str. EC4113"
+                     /mol_type="genomic DNA"
+                     /strain="EC4113"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:444452"
+WGS         ABHP01000001-ABHP01000231
+//
+

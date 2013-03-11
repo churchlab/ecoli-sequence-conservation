@@ -1,0 +1,50 @@
+LOCUS       AAJT02000000             289 rc    DNA     linear   BCT 20-JUN-2008
+DEFINITION  Escherichia coli B7A, whole genome shotgun sequencing project.
+ACCESSION   AAJT00000000
+VERSION     AAJT00000000.2  GI:190904988
+DBLINK      BioProject: PRJNA15572
+KEYWORDS    WGS.
+SOURCE      Escherichia coli B7A
+  ORGANISM  Escherichia coli B7A
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 289)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Brinkley,C., Myers,G.S.A., Seshadri,R.,
+            Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20874, USA
+REFERENCE   2  (bases 1 to 289)
+  AUTHORS   Rasko,D., Rosovitz,M., Myers,G., Seshadri,R., Cer,R., Jiang,L.,
+            Ravel,J., Fricke,W.F. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Jun 20, 2008 this sequence version replaced gi:74230343.
+            The Escherichia coli B7A whole genome shotgun (WGS) project has the
+            project accession AAJT00000000.  This version of the project (02)
+            has the accession number AAJT02000000, and consists of sequences
+            AAJT02000001-AAJT02000289.
+            Escherichia coli B7A is a standard enterotoxigenic E. coli (ETEC)
+            isolate that was obtained from Maj. Carl Brinkley (Walter Reed Army
+            Institute of Research). ETEC is the leading cause of traveler's
+            diarrhea, which is chiefly characterized by a large volume of
+            watery diarrhea. ETEC primarily colonizes the small intestine by
+            way of the pili. Additionally, two toxins are thought to be
+            responsible for the virulence: heat-stable and heat-labile
+            enterotoxins. The stock used for genomic DNA preparation was
+            obtained from a master- and production cGMP cell bank available at
+            WRAIR/NMRC. Pathogenicity has been confirmed in human challenge
+            experiments. Other known virulence factors include: serotype
+            O148:H28, heat-stable toxin and heat-labile toxin, and CFA type
+            CS6. Additionally, this isolate contains multiple plasmids.
+FEATURES             Location/Qualifiers
+     source          1..289
+                     /organism="Escherichia coli B7A"
+                     /mol_type="genomic DNA"
+                     /strain="B7A"
+                     /serovar="O148:H28"
+                     /db_xref="taxon:340184"
+WGS         AAJT02000001-AAJT02000289
+//
+

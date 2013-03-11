@@ -1,0 +1,55 @@
+LOCUS       AAKB02000000               2 rc    DNA     linear   BCT 15-MAY-2008
+DEFINITION  Escherichia coli 53638, whole genome shotgun sequencing project.
+ACCESSION   AAKB00000000
+VERSION     AAKB00000000.2  GI:188491671
+DBLINK      BioProject: PRJNA15639
+KEYWORDS    WGS.
+SOURCE      Escherichia coli 53638
+  ORGANISM  Escherichia coli 53638
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 2)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Brinkley,C., Myers,G.S.A., Seshadri,R.,
+            Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2005) The Institute for Genomic Research, 9712
+            Medical Center Dr., Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 2)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Brinkley,C., Myers,G.S.A., Seshadri,R.,
+            Cer,R.Z., Jiang,L., Sebastian,Y. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (13-MAY-2008) The Institute for Genomic Research, 9712
+            Medical Center Dr., Rockville, MD 20850, USA
+COMMENT     On May 15, 2008 this sequence version replaced gi:74275722.
+            The Escherichia coli 53638 whole genome shotgun (WGS) project has
+            the project accession AAKB00000000.  This version of the project
+            (02) has the accession number AAKB02000000, and consists of
+            sequences AAKB02000001-AAKB02000002.
+            Escherichia coli 53638 is an enteroinvasive E. coli (EIEC) isolate
+            that was obtained from Maj. Carl Brinkley (Walter Reed Army
+            Institute of Research).  This isolate represents a midpoint between
+            E. coli and Shigella species. Based on phenotypic and biochemical
+            evidences the strain is more similar to E. coli than Shigella. The
+            strain is positive for the IpaB protein as determined by western
+            blot. IpaB is involved in vacuole lysis and intracellular survival
+            by Shigella species. The infection of enteroinvasive E. coli is
+            similar to that of Shigella, with an intracellular stage of
+            replication and cell-to-cell spread. Other features include
+            Serotype O144,  the inability to utilize lactose, and the lack of
+            toxin prodution. This isolate contains two plasmids typically found
+            in Shigella  species. The stock used for genomic DNA preparation
+            was obtained from a master- and production cGMP cell bank available
+            at WRAIR/NMRC.  Pathogenicity has been confirmed in human challenge
+            experiments
+            Annotation was added to the contigs in May 2008.
+            The complete plasmids  p53638_226 and p53638_75 were deposited in
+            GenBank Accession Numbers CP001064 and CP001065, respectively.
+FEATURES             Location/Qualifiers
+     source          1..2
+                     /organism="Escherichia coli 53638"
+                     /mol_type="genomic DNA"
+                     /strain="53638"
+                     /db_xref="taxon:344610"
+WGS         AAKB02000001-AAKB02000002
+//
+

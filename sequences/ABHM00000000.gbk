@@ -1,0 +1,44 @@
+LOCUS       ABHM02000000               4 rc    DNA     linear   BCT 06-OCT-2008
+DEFINITION  Escherichia coli O157:H7 str. EC4042, whole genome shotgun
+            sequencing project.
+ACCESSION   ABHM00000000
+VERSION     ABHM00000000.2  GI:208742331
+DBLINK      BioProject: PRJNA27737
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. EC4042
+  ORGANISM  Escherichia coli O157:H7 str. EC4042
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 4)
+  AUTHORS   Rosovitz,M.J. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 4)
+  AUTHORS   Eppinger,M., Sebastian,Y. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (29-SEP-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Oct 6, 2008 this sequence version replaced gi:159529981.
+            The Escherichia coli O157:H7 str. EC4042 whole genome shotgun (WGS)
+            project has the project accession ABHM00000000.  This version of
+            the project (02) has the accession number ABHM02000000, and
+            consists of sequences ABHM02000001-ABHM02000004.
+            DNA/Bacteria source: Mark Eppinger, Jacques Ravel
+            Institute for Genome Sciences (IGS), Department of Microbiology &
+            Immunology, University of Maryland, School of Medicine, Baltimore,
+            MD 21201, USA
+            Mark K. Mammel, J. Eugene LeClerc, Thomas  A. Cebula
+            Division of Molecular Biology, Office of Applied Research and
+            Safety Assessment, Center for Food Safety and  Applied Nutrition,
+            U.S. Food and Drug Administration, Laurel, MD 20708, USA.
+FEATURES             Location/Qualifiers
+     source          1..4
+                     /organism="Escherichia coli O157:H7 str. EC4042"
+                     /mol_type="genomic DNA"
+                     /strain="EC4042"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:444449"
+WGS         ABHM02000001-ABHM02000004
+//
+

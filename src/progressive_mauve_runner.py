@@ -23,9 +23,15 @@ SEQUENCE_DIR = os.path.join(PROJECT_HOME_DIR, 'sequences')
 MDS42_FILE = os.path.join(SEQUENCE_DIR, 'mds42.gbk')
 
 # Destination for output.
-OUTPUT_DIR = os.path.join(PROJECT_HOME_DIR, 'output')
+OUTPUT_DIR = os.path.join(PROJECT_HOME_DIR, 'mauve_output')
 
-PROGRESSIVE_MAUVE_BIN = '/opt/mauve_2.3.1/progressiveMauve'
+
+# Progressive Mauve-related
+PROGRESSIVE_MAUVE_BIN = '/opt/mauve_2.3.1/linux-x64/progressiveMauve'
+MAUVE_OUTPUT = os.path.join(OUTPUT_DIR, 'align.xmfa')
+MAUVE_TMP = os.path.join(MODULE_DIR, 'mauve_tmp')
+MAUVE_SCRATCH_PATH_1 = os.path.join(MODULE_DIR, 'mauve_tmp_1')
+MAUVE_SCRATCH_PATH_2 = os.path.join(MODULE_DIR, 'mauve_tmp_2')
 
 # Caching.
 CACHE_DIR = os.path.join(PROJECT_HOME_DIR, 'cache')
@@ -36,12 +42,17 @@ LOG_FILE = os.path.join(MODULE_DIR, 'progressive_mauve_runner.log')
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
         format='%(asctime)s %(message)s')
 
+
 def run_progressive_mauve(sequence_file_paths):
     """Run progressive mauve."""
-    cmd_as_list = [PROGRESSIVE_MAUVE_BIN]
+    cmd_as_list = ['env', 'TMPDIR=' + MAUVE_TMP, PROGRESSIVE_MAUVE_BIN]
 
     # Set the output destination.
-    cmd_as_list.extend(['--output', os.path.join(OUTPUT_DIR, 'align.xmfa')])
+    cmd_as_list.extend(['--output=' + MAUVE_OUTPUT])
+
+    # Set scratch paths manually.
+    cmd_as_list.extend(['--scratch-path-1=' + MAUVE_SCRATCH_PATH_1])
+    cmd_as_list.extend(['--scratch-path-2=' + MAUVE_SCRATCH_PATH_2])
 
     for seq_file in sequence_file_paths:
         cmd_as_list.extend([seq_file])

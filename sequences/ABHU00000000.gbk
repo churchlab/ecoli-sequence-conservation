@@ -1,0 +1,37 @@
+LOCUS       ABHU01000000             147 rc    DNA     linear   BCT 09-MAY-2011
+DEFINITION  Escherichia coli O157:H7 str. EC869, whole genome shotgun
+            sequencing project.
+ACCESSION   ABHU00000000
+VERSION     ABHU00000000.1  GI:159531792
+DBLINK      BioProject: PRJNA27757
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. EC869
+  ORGANISM  Escherichia coli O157:H7 str. EC869
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 147)
+  AUTHORS   Eppinger,M., Mammel,M.K., Leclerc,J.E., Ravel,J. and Cebula,T.A.
+  TITLE     Genome Signatures of Escherichia coli O157:H7 Isolates from the
+            Bovine Host Reservoir
+  JOURNAL   Appl. Environ. Microbiol. 77 (9), 2916-2925 (2011)
+   PUBMED   21421787
+REFERENCE   2  (bases 1 to 147)
+  AUTHORS   Rosovitz,M.J. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The Escherichia coli O157:H7 str. EC869 whole genome shotgun (WGS)
+            project has the project accession ABHU00000000.  This version of
+            the project (01) has the accession number ABHU01000000, and
+            consists of sequences ABHU01000001-ABHU01000147.
+            Annotation was added to the contigs in June 2008.
+FEATURES             Location/Qualifiers
+     source          1..147
+                     /organism="Escherichia coli O157:H7 str. EC869"
+                     /mol_type="genomic DNA"
+                     /strain="EC869"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:478008"
+WGS         ABHU01000001-ABHU01000147
+//
+

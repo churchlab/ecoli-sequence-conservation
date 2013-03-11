@@ -1,0 +1,47 @@
+LOCUS       AAJV02000000             127 rc    DNA     linear   BCT 25-JUN-2008
+DEFINITION  Escherichia coli E22, whole genome shotgun sequencing project.
+ACCESSION   AAJV00000000
+VERSION     AAJV00000000.2  GI:192940712
+DBLINK      BioProject: PRJNA15577
+KEYWORDS    WGS.
+SOURCE      Escherichia coli E22
+  ORGANISM  Escherichia coli E22
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 127)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Kaper,J.B., Boedecker,E.C.,
+            Myers,G.S.A., Seshadri,R., Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 127)
+  AUTHORS   Rasko,D., Rosovitz,M., Myers,G., Seshadri,R., Cer,R., Jiang,L.,
+            Ravel,J., Fricke,W.F. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Jun 25, 2008 this sequence version replaced gi:74230453.
+            The Escherichia coli E22 whole genome shotgun (WGS) project has the
+            project accession AAJV00000000.  This version of the project (02)
+            has the accession number AAJV02000000, and consists of sequences
+            AAJV02000001-AAJV02000127.
+            Escherichia coli E22 is a strain of enteropathogenic E. coli (EPEC)
+            that has been used in the development of the model system of
+            infection in rabbits.  EPEC infection is primarily in infants and
+            usually limited to the small intestine, but in some cases causes
+            hemolytic uremic syndrome (HUS) or hemorrhagic colitis (HC).  E.
+            coli E22 was provided by Drs. James B. Kaper and Edward Boedeker
+            (University of Maryland School of Medicine).  Known virulence
+            factors include: serotype O103:H2, LEE pathogenicity island (Type
+            II secretion system with secreted factors leading to the typical AE
+            lesions of the epithelial layer).
+FEATURES             Location/Qualifiers
+     source          1..127
+                     /organism="Escherichia coli E22"
+                     /mol_type="genomic DNA"
+                     /strain="E22"
+                     /serovar="O103:H2"
+                     /db_xref="taxon:340185"
+WGS         AAJV02000001-AAJV02000127
+//
+

@@ -1,0 +1,36 @@
+LOCUS       ABHQ01000000             135 rc    DNA     linear   BCT 21-MAY-2008
+DEFINITION  Escherichia coli O157:H7 str. EC4076, whole genome shotgun
+            sequencing project.
+ACCESSION   ABHQ00000000
+VERSION     ABHQ00000000.1  GI:159530897
+DBLINK      BioProject: PRJNA27745
+KEYWORDS    WGS.
+SOURCE      Escherichia coli O157:H7 str. EC4076
+  ORGANISM  Escherichia coli O157:H7 str. EC4076
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 135)
+  AUTHORS   Eppinger,M., Ravel,J., Mammel,M.K., LeClerc,J.E., Cebula,T.A. and
+            Sebastian,Y.
+  TITLE     Annotation of Escherichia coli O157:H7 str. EC4076
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 135)
+  AUTHORS   Rosovitz,M.J. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-OCT-2007) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     The Escherichia coli O157:H7 str. EC4076 whole genome shotgun (WGS)
+            project has the project accession ABHQ00000000.  This version of
+            the project (01) has the accession number ABHQ01000000, and
+            consists of sequences ABHQ01000001-ABHQ01000135.
+            Annotation was added to the contigs in May 2008.
+FEATURES             Location/Qualifiers
+     source          1..135
+                     /organism="Escherichia coli O157:H7 str. EC4076"
+                     /mol_type="genomic DNA"
+                     /strain="EC4076"
+                     /serovar="O157:H7"
+                     /db_xref="taxon:444453"
+WGS         ABHQ01000001-ABHQ01000135
+//
+

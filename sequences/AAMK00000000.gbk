@@ -1,0 +1,48 @@
+LOCUS       AAMK02000000              91 rc    DNA     linear   BCT 24-JUL-2008
+DEFINITION  Escherichia coli 101-1, whole genome shotgun sequencing project.
+ACCESSION   AAMK00000000
+VERSION     AAMK00000000.2  GI:194425506
+DBLINK      BioProject: PRJNA16193
+KEYWORDS    WGS.
+SOURCE      Escherichia coli 101-1
+  ORGANISM  Escherichia coli 101-1
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 91)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Nataro,J.P., Myers,G.S.A., Sheshadri,R.,
+            Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-DEC-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 91)
+  AUTHORS   Rasko,D., Rosovitz,M., Myers,G., Seshadri,R., Cer,R., Jiang,L.,
+            Ravel,J., Fricke,W.F. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUL-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Jul 24, 2008 this sequence version replaced gi:83578180.
+            The Escherichia coli 101-1 whole genome shotgun (WGS) project has
+            the project accession AAMK00000000.  This version of the project
+            (02) has the accession number AAMK02000000, and consists of
+            sequences AAMK02000001-AAMK02000091.
+            Escherichia coli 101-1 is a member of the enteroaggregative E. coli
+            (EAEC) group of pathogens.  Enteroaggregative E. coli is an
+            emerging diarrheal pathogen, implicated in traveler's diarrhea and
+            endemic diarrhea in developing and industrialized countries. The
+            pathogenesis of EAEC infection comprises colonization of the
+            intestinal mucosa with elaboration of enterotoxins and cytotoxins.
+            E. coli 101-1 was provided by Dr. James Nataro (The University of
+            Maryland School of Medicine) and isolated from an outbreak in
+            Japan. It is an atypical EAEC isolate.  E. coli 101-1 does not
+            contain any of the previously identified EAEC virulence factors;
+            however, it causes a disease that is similar to that caused by
+            other EAEC isolates.
+FEATURES             Location/Qualifiers
+     source          1..91
+                     /organism="Escherichia coli 101-1"
+                     /mol_type="genomic DNA"
+                     /strain="101-1"
+                     /db_xref="taxon:358709"
+WGS         AAMK02000001-AAMK02000091
+//
+

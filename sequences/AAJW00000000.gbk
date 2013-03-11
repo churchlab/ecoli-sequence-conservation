@@ -1,0 +1,46 @@
+LOCUS       AAJW02000000             137 rc    DNA     linear   BCT 25-JUN-2008
+DEFINITION  Escherichia coli E110019, whole genome shotgun sequencing project.
+ACCESSION   AAJW00000000
+VERSION     AAJW00000000.2  GI:192982746
+DBLINK      BioProject: PRJNA15578
+KEYWORDS    WGS.
+SOURCE      Escherichia coli E110019
+  ORGANISM  Escherichia coli E110019
+            Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales;
+            Enterobacteriaceae; Escherichia.
+REFERENCE   1  (bases 1 to 137)
+  AUTHORS   Rasko,D.A., Rosovitz,M.J., Kaper,J.B., Myers,G.S.A., Seshadri,R.,
+            Cer,R.Z., Jiang,L. and Ravel,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-SEP-2005) The Institute for Genomic Research, 9712
+            Medical Center Drive, Rockville, MD 20850, USA
+REFERENCE   2  (bases 1 to 137)
+  AUTHORS   Rasko,D., Rosovitz,M., Myers,G., Seshadri,R., Cer,R., Jiang,L.,
+            Ravel,J., Fricke,W.F. and Sebastian,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-JUN-2008) J. Craig Venter Institute, 9704 Medical
+            Center Drive, Rockville, MD 20850, USA
+COMMENT     On Jun 25, 2008 this sequence version replaced gi:74230569.
+            The Escherichia coli E110019 whole genome shotgun (WGS) project has
+            the project accession AAJW00000000.  This version of the project
+            (02) has the accession number AAJW02000000, and consists of
+            sequences AAJW02000001-AAJW02000137.
+            Escherichia coli E110019 was isolated from an outbreak in Finland
+            (Viljanen MK et al, Lancet (1990), 336(8719): 831-4).  The outbreak
+            affected approximately 650 students at a school. In a fashion
+            uncommon in other EPEC strains, E. coli E110019 spread from
+            person-to-person to over 100 close contacts outside of the school
+            setting. E. coli E110019 represents an atypical enteropathogenic E.
+            coli (atypical EPEC) characterized by the lack of previously
+            identified EPEC virulence factors including the EAF plasmid.
+            E110019 is serotype O111:H9.
+FEATURES             Location/Qualifiers
+     source          1..137
+                     /organism="Escherichia coli E110019"
+                     /mol_type="genomic DNA"
+                     /strain="E110019"
+                     /serovar="O111:H9"
+                     /db_xref="taxon:340186"
+WGS         AAJW02000001-AAJW02000137
+//
+
