@@ -45,6 +45,9 @@ logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
 
 def run_progressive_mauve(sequence_file_paths):
     """Run progressive mauve."""
+    if not os.path.exists(OUTPUT_DIR):
+        os.mkdir(OUTPUT_DIR)
+
     cmd_as_list = ['env', 'TMPDIR=' + MAUVE_TMP, PROGRESSIVE_MAUVE_BIN]
 
     # Set the output destination.
