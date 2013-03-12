@@ -3,6 +3,7 @@
 cache/
 
 # Mauve tmp files
+*.sslist
 mauve_tmp/
 mauve_scratch_1/
 mauve_scratch_2/
