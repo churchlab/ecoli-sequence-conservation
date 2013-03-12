@@ -50,9 +50,9 @@ def run_progressive_mauve(sequence_file_paths):
     # Set the output destination.
     cmd_as_list.extend(['--output=' + MAUVE_OUTPUT])
 
-    # Set scratch paths manually.
-    cmd_as_list.extend(['--scratch-path-1=' + MAUVE_SCRATCH_PATH_1])
-    cmd_as_list.extend(['--scratch-path-2=' + MAUVE_SCRATCH_PATH_2])
+    # # Set scratch paths manually.
+    # cmd_as_list.extend(['--scratch-path-1=' + MAUVE_SCRATCH_PATH_1])
+    # cmd_as_list.extend(['--scratch-path-2=' + MAUVE_SCRATCH_PATH_2])
 
     for seq_file in sequence_file_paths:
         cmd_as_list.extend([seq_file])
@@ -88,15 +88,20 @@ def determine_valid_sequence_file_paths(force_recalculate=False):
     valid_sequence_files = []
     for maybe_seq_filename in os.listdir(SEQUENCE_DIR):
         print 'Testing %s ...' % maybe_seq_filename
-        if '.gbk' == os.path.splitext(maybe_seq_filename)[1]:
-            # Check if the file contains a sequence.
-            path_to_file = os.path.join(SEQUENCE_DIR, maybe_seq_filename)
-            with open(path_to_file) as fh:
-                record = SeqIO.read(fh, 'genbank')
-                if isinstance(record.seq, Seq.UnknownSeq):
-                    continue
-                else:
-                    valid_sequence_files.append(path_to_file)
+
+        if not '.gbk' == os.path.splitext(maybe_seq_filename)[1]:
+            print '...Not a genbank file. Skipping.'
+            continue
+
+        # Check if the file contains a sequence.
+        path_to_file = os.path.join(SEQUENCE_DIR, maybe_seq_filename)
+        with open(path_to_file) as fh:
+            record = SeqIO.read(fh, 'genbank')
+            if isinstance(record.seq, Seq.UnknownSeq):
+                print '...No sequence detected. Skipping.'
+                continue
+            else:
+                valid_sequence_files.append(path_to_file)
 
     # Hack to put mds42 first. I think this will make inspecting the initial
     # progressiveMauve output by eye a bit easier, since in the .backbone file
